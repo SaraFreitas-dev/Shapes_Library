@@ -27,53 +27,68 @@ Feel free to experiment with different parameters to create unique and beautiful
 Create and Draw Patterns:
 -----------
 2. **Spirograph:**
+```python
 spiro = Spinograph()
 spiro.draw(size_of_gap=5)
 spiro.exit_on_click()  # Close the window on click
+```
 
 3. **SquarePattern:**
+```python
 square = SquarePattern()
 square.draw(side_length=200, number_of_squares=36)
 square.exit_on_click()
 Circle Pattern:
+```
 
 4. **CirclePattern:**
+```python
 circle = CirclePattern()
 circle.draw(radius=100, number_of_circles=10)
 circle.exit_on_click()
+```
 
 5. **HexagonPattern:**
+```python
 hexagon = HexagonPattern()
 hexagon.draw(side_length=100, number_of_hexagons=30)
 hexagon.exit_on_click()
-
+```
 
 6. **StarPattern:**
+```python
 star = StarPattern()
 star.draw(size=250, points=7)  # Size and points of each star
 star.exit_on_click()
+```
 
 7. **TrianglePattern:**
+```python
 triangle = TrianglePattern()
 triangle.draw(side_length=150, number_of_triangles=36)
 triangle.exit_on_click()
+```
 
 8. **PolygonPattern:**
+```python
 polygon = PolygonPattern()
 polygon.draw(sides=8, side_length=100, number_of_polygons=24)
 polygon.exit_on_click()
-Flower Pattern:
+```
 
 8. **FlowerPattern:**
+```python
 flower = FlowerPattern()
 flower.draw(radius=100, petals=24)  # Radius and number of petals
 flower.exit_on_click()
+```
 
 9. **SunburstPattern:**
+```python
 sunburst = SunburstPattern()
 sunburst.draw(line_length=150, number_of_lines=36)
 sunburst.exit_on_click()
-Spirograph with Changing Radius:
+```
 
 10. **ChangingRadiusSpirograph:**
 changing_radius_spiro = ChangingRadiusSpirograph()
@@ -81,15 +96,16 @@ changing_radius_spiro.draw(size_of_gap=5, start_radius=50, end_radius=180, step=
 changing_radius_spiro.exit_on_click()
 
 11. **RandomWalk:**
+```python
 random_walk = RandomWalk()
 random_walk.draw(steps=100, step_length=30)
 random_walk.exit_on_click()
+```
 
 12. **ConcentricCircles:**
+```python
 concentric_circles = ConcentricCircles()
 concentric_circles.draw(start_radius=10, end_radius=200, step=10)
 concentric_circles.exit_on_click()
-Notes
-Inheritance: Each shape class inherits from ShapeDrawer, which provides methods for setting the pen size, resetting the turtle’s position, and closing the drawing window on click.
-Random Colors: The random_color method generates a random color for each line or shape, adding variability to your patterns.
-Experiment: Feel free to experiment with different parameters to create unique and beautiful patterns!
+```
+
