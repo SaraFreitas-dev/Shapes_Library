@@ -1,6 +1,6 @@
 """
 Turtle Shapes Library
-=========================
+======================
 
 Welcome to the Shape Library! This Python package allows you to create a variety of artistic patterns using the Turtle graphics module. Whether you're interested in spirographs, polygons, or random walk patterns, this library has something for you. Feel free to test it out !
 
