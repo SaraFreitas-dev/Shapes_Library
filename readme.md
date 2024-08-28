@@ -91,9 +91,11 @@ sunburst.exit_on_click()
 ```
 
 10. **ChangingRadiusSpirograph:**
+```python
 changing_radius_spiro = ChangingRadiusSpirograph()
 changing_radius_spiro.draw(size_of_gap=5, start_radius=50, end_radius=180, step=5)
 changing_radius_spiro.exit_on_click()
+```
 
 11. **RandomWalk:**
 ```python
