@@ -1,6 +1,6 @@
 """
 Turtle Shapes Library
-===================
+-----------
 
 Welcome to the Shape Library! This Python package allows you to create a variety of artistic patterns using the Turtle graphics module. Whether you're interested in spirographs, polygons, or random walk patterns, this library has something for you. Feel free to test it out !
 
@@ -28,7 +28,7 @@ Create and Draw Patterns:
 -----------
 2. **Spirograph:**
 
-<img src="img/spinograph_print.png" alt="Spinograph Example" style="max-width: 250px">
+<img src="img/spinograph_print.png" alt="Spinograph Example" style="max-width: 150px">
 
 ```python
 spiro = Spinograph()
@@ -53,7 +53,7 @@ circle.exit_on_click()
 
 5. **HexagonPattern:**
 
-<img src="img/hexagon_print.png" alt="Hexagon Example" style="max-width: 250px">
+<img src="img/hexagon_print.png" alt="Hexagon Example" style="max-width: 150px">
 
 ```python
 hexagon = HexagonPattern()
@@ -112,7 +112,7 @@ random_walk.exit_on_click()
 
 12. **ConcentricCircles:**
 
-<img src="img/concentric_print.png" alt="Concentric Example" style="max-width: 250px">
+<img src="img/concentric_print.png" alt="Concentric Example" style="max-width: 150px">
 
 ```python
 concentric_circles = ConcentricCircles()
