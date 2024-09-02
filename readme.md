@@ -1,4 +1,4 @@
-"""
+
 Turtle Shapes Library
 -----------
 
@@ -28,7 +28,7 @@ Create and Draw Patterns:
 -----------
 2. **Spirograph:**
 
-<img src="img/spinograph_print.png" alt="Spinograph Example" style="max-width: 150px">
+<img src="img/spinograph_print.png" alt="Spinograph Example" style="width: 250px">
 
 ```python
 spiro = Spinograph()
@@ -53,7 +53,7 @@ circle.exit_on_click()
 
 5. **HexagonPattern:**
 
-<img src="img/hexagon_print.png" alt="Hexagon Example" style="max-width: 150px">
+<img src="img/hexagon_print.png" alt="Hexagon Example" style="width: 250px">
 
 ```python
 hexagon = HexagonPattern()
@@ -112,7 +112,7 @@ random_walk.exit_on_click()
 
 12. **ConcentricCircles:**
 
-<img src="img/concentric_print.png" alt="Concentric Example" style="max-width: 150px">
+<img src="img/concentric_print.png" alt="Concentric Example" style="width: 250px">
 
 ```python
 concentric_circles = ConcentricCircles()
