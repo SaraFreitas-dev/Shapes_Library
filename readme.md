@@ -27,6 +27,9 @@ Feel free to experiment with different parameters to create unique and beautiful
 Create and Draw Patterns:
 -----------
 2. **Spirograph:**
+
+<img src="img/spinograph_print.png" alt="Spinograph Example" style="max-width: 250px">
+
 ```python
 spiro = Spinograph()
 spiro.draw(size_of_gap=5)
@@ -49,6 +52,9 @@ circle.exit_on_click()
 ```
 
 5. **HexagonPattern:**
+
+<img src="img/hexagon_print.png" alt="Hexagon Example" style="max-width: 250px">
+
 ```python
 hexagon = HexagonPattern()
 hexagon.draw(side_length=100, number_of_hexagons=30)
@@ -105,6 +111,9 @@ random_walk.exit_on_click()
 ```
 
 12. **ConcentricCircles:**
+
+<img src="img/concentric_print.png" alt="Concentric Example" style="max-width: 250px">
+
 ```python
 concentric_circles = ConcentricCircles()
 concentric_circles.draw(start_radius=10, end_radius=200, step=10)
